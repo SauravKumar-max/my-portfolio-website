@@ -1,0 +1,73 @@
+/* #00B0FF */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #05a2eb;
+    --gray: #F3F4F6;
+    --dark-gray:#6B7280;
+}
+
+hr{
+    margin: 2rem 0;
+}
+
+
+
+.container {
+    margin: auto;
+    padding: 0 1rem;
+    max-width: 600px;
+}
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+.link-primary{
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+.link-secondary{
+    text-decoration: none;
+    color: var(--primary-color);
+    border: solid 1px var(--primary-color);
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+
+
+
+
+.unordered{
+    list-style: none;
+}
+
+.inline-list li{
+    display: inline;
+    padding: 0 1rem;
+}
+
+
+
+
+
+
+
