@@ -111,14 +111,59 @@ hr{
     font-weight: bold;
 }
 
-.navigation .logo{
+/* .navigation .logo{
     
 }
 .logo-image{
     max-width: 90px;
+} */
+
+.header-image{
+    max-width: 550px;
+    margin: auto;
+    display: block;
+}
+
+.header-text{
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+
+.section {
+    padding: 2rem 0rem;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--gray);
 }
 
 
 
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+.footer .heading {
+    font-weight: bold;
+    font-size: larger;
+  
+}
 
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+
+.footer li a {
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 1rem;
+}
 
