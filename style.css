@@ -21,6 +21,10 @@ hr{
     margin: 2rem 0;
 }
 
+.header h3{
+    color: var(--dark-gray);
+    text-align: center;
+}
 
 
 .container {
@@ -125,13 +129,12 @@ span{
 }
 
 header{
-    padding: 2rem 1rem;
+    padding: 3rem 1rem;
 }
 
 .header-image{
     width: 100%;
-    max-width: 450px;
-    /* margin: 3rem auto; */
+    max-width: 500px;
     display: block;
 }
 
@@ -152,8 +155,6 @@ header{
 .ow {
     background-color: var(--gray);
 }
-
-
 
 .footer {
     background-color: var(--primary-color);
