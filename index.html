@@ -3,97 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link href="./style.css" rel="stylesheet">
+    <title>Home | Saurav Kumar</title>
 </head>
 <body>
-    <h1>Saurav's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+    <div class="container">
+        <nav class="navigation">
+            <!-- <div class="logo"> -->
+                <a href="/" class="logo">
+                    <img class="logo-image" src="./images/logo.svg" >
+                    <div class="brand">IamDeveloper</div>
+                </a>
+            <!-- </div> -->
+            
+            <ul >
+                <li>
+                    <a class="link-active" href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/">Projects</a>
+                </li>
+                <li>
+                    <a href="/">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
-    <hr >
-
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text</small> 
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-    </ul>
-
-    <h3> unordered inline list</h3>
-
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3> reverse ordered list</h3>
-
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
-    <nav>
-        <div>BrandName</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
-            </li>
-            <li>
-                <a href="/">projects</a>
-            </li>
-            <li>
-                <a href="/">blog</a>
-            </li>
-            <li>
-                <a href="/">about</a>
-            </li>
-        </ul>
-    </nav>
-
-    <hr>
-
-    <h2>header</h2>
-
-    <header>
-        <img src="images/coder.svg" />
+    <header class="container">
+        <img class="header-image" src="images/coder.svg" />
+        <h1 class="header-text"> Hey! I am Saurav Kumar a <span>Web Developer</span></h1>
     </header>
+
+    <section class="section ow">
+        <h2> inside off white section</h2>
+        <p>Text defining this section and many more things</p>
+        <a href="/" class="link-primary"> Primary Button</a>
+    </section>
+
+
 
 </body>
 </html>
