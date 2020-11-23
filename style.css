@@ -38,7 +38,9 @@ hr{
     padding-right: 1rem;
 }
 
-
+small{
+    margin: 1.5rem;
+}
 
 .link-primary{
     text-decoration: none;
@@ -48,7 +50,7 @@ hr{
     min-width: 140px;
     border-radius: 0.2rem;
     padding: 0.4rem 1rem;
-    margin: 1.5rem 0.5rem 1.5rem 2rem;
+    margin: 1.5rem 1rem 1rem 1.5rem;
 }
 
 .link-secondary{
@@ -59,7 +61,7 @@ hr{
     min-width: 140px;
     border-radius: 0.2rem;
     padding: 0.4rem 1rem;
-    margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+    margin: 1.5rem 0rem 1rem 0rem;
 }
 
 
@@ -152,10 +154,12 @@ header{
 
 .section h2{
     text-align: center;
+    
 }
 
 .section p{
     padding: 0 1.5rem;
+    margin: 0.5rem 0 1.5rem 0;
 }
 
 .ow {
