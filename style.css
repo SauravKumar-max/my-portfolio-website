@@ -4,18 +4,19 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
-
-body{
-    font-family: 'PT Sans', sans-serif;
-    background-color:  #f1f0faa2;
-    margin: auto;
-}
-
 :root {
     --primary-color: #05a2eb;
     --gray: #F3F4F6;
     --dark-gray:#6B7280;
 }
+
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: var(--gray);
+    margin: auto;
+}
+
 
 hr{
     margin: 2rem 0;
@@ -129,7 +130,7 @@ span{
 }
 
 header{
-    padding: 3rem 1rem;
+    padding: 3rem 1rem 0rem 1rem;
 }
 
 .header-image{
@@ -145,7 +146,7 @@ header{
 
 
 .section {
-    padding: 2rem 0rem;
+    padding: 2rem 0 2rem 0rem;
 }
 
 .section h2 {
@@ -153,7 +154,7 @@ header{
 }
 
 .ow {
-    background-color: var(--gray);
+    background-color: #fff;
 }
 
 .footer {
@@ -178,4 +179,3 @@ header{
     color: var(--gray);
     font-size: 1rem;
 }
-
