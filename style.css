@@ -22,11 +22,6 @@ hr{
     margin: 2rem 0;
 }
 
-.header h3{
-    color: var(--dark-gray);
-    text-align: center;
-}
-
 
 .container {
     margin: auto;
@@ -145,6 +140,11 @@ header{
 .header-text{
     text-align: center;
     color: var(--dark-gray);
+}
+
+.header h3{
+    color: var(--dark-gray);
+    text-align: center;
 }
 
 
