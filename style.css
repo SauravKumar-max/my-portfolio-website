@@ -150,6 +150,7 @@ header{
 
 .section {
     padding: 0.5rem 0 2rem 0rem;
+    border-radius: 0.5rem;
 }
 
 .section h2{
