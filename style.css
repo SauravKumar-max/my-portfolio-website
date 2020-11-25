@@ -62,7 +62,7 @@ small{
 
 .unordered{
     font-weight: bold;
-    color: #6d6f74;
+    color: #4c4d50;
 }
 
 .inline-list li{
@@ -175,7 +175,7 @@ header{
 .section p{
     padding: 0 1.5rem;
     margin: 0.5rem 0 1rem; 
-    color: #6d6f74;
+    color: #4c4d50;
     font-weight: bold;
 }
 
