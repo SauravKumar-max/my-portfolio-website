@@ -149,18 +149,35 @@ header{
 
 
 .section {
-    padding: 0.5rem 0 2rem 0rem;
+    padding: 0.5rem 0.5rem 2rem 0.5rem;
     border-radius: 0.5rem;
 }
 
 .section h2{
     text-align: center;
-    
+}
+
+.section h4{
+    margin: 1.5rem;
+}
+
+.section-image{
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    box-shadow: 5px 5px 10px rgb(141, 136, 136);
+    border-radius: 0.3rem;
 }
 
 .section p{
     padding: 0 1.5rem;
-    margin: 0.5rem 0 1.5rem 0;
+    margin: 0.5rem 0 1.5rem 0; 
+    color: #45474b;
+}
+
+.section a{
+    text-decoration: none;
 }
 
 .ow {
