@@ -33,7 +33,8 @@
         <h2 style="font-size: 2.5rem;">Build Your First CLI Application</h2>
         <img class="section-image" src="../images/terminal.webp" />
         <h4 style="color: #424246;">A CLI (command line interface) Applications are programs that you interact with entirely through your console. 
-        They are totally opposite of GUI (graphical user interface) as they have no graphics beyond what you see in your terminal after you run the program.</h4>
+        They are totally opposite of GUI (graphical user interface) as they have no graphics beyond what you see in your terminal after you run the program.
+        Here we are going to build a cli quiz app of ourselves so without further ado let's start.</h4>
     </section>
 
     <section class="section container ow">
@@ -63,18 +64,34 @@
             <p>First mkdir will create a directory/folder with the name cli-app, then cd will direct you into the folder where touch index.js (or notepad index.js in cmd) will create a javascript file.</p>       
             <div class="codes-div">
                 > npm install readline-sync <br>
-                > npm install chalk<br>
                 > code .<br>
             </div>
             <p><a style="color: #0597db;" target="_blank" href="https://www.npmjs.com">NPM</a> is package manager for javascript language, it is default package manager that comes with nodejs.<br>
-            <a style="color: #0597db;" target="_blank" href="https://www.npmjs.com/package/readline-sync">Readline-sync</a> is a package that interacts synchronously with the user, bascially it takes input from the user through console.<br>
-            <a style="color: #0597db;" target="_blank" href="https://www.npmjs.com/package/chalk">Chalk</a> styles the terminal strings.</p>
-            
-            <h2 style="text-align: start; margin: auto 1rem;">Our CLI app</h2>
-        
+            <a style="color: #0597db;" target="_blank" href="https://www.npmjs.com/package/readline-sync">Readline-sync</a> is a module that interacts synchronously with the user, bascially it takes input from the user through console.</p>
     </section>
 
+<section class="section container ow">
+    <h2 style="text-align: start; margin: auto 1rem;">Step 1: Add Modules</h2>
+    <p>We need to include those modules that we have installed earlier, to include we use 'require()' function.</p>
+    <img class="section-image" src="../images/require.png" />
+    <p>By assigning to a variable globally we can use the benefits of the modules anywhere in our program.</p>
+   
+    <h2 style="text-align: start; margin: auto 1rem;">Step 2: Take Input From The User</h2>
+    <img style="max-width: 450px;" class="section-image" src="../images/input.png" />
+    <p>Taking the user input and storing the value into the variable. Here userName is storing the user respone asked by the readlineSync.question() method.</p>
 
+    <h2 style="text-align: start; margin: auto 1rem;">Step 3: Create An Array of Objects To Store Question and Answer</h2>
+    <p> Create an array of objects as its elements. Object should have two properties, one for question and one for answer. Create as many questions as you want inside the array.</p>
+    <img style="max-width: 250px;" class="section-image" src="../images/qna.png" />
+
+    <h2 style="text-align: start; margin: auto 1rem;">Step 4: Check the Answer Of The User</h2>
+    <p>Now, declare a variable to store the score of the user and also create a function having two parameters.
+        Inside the function we will ask the user a question and take the response as an answer.
+    </p>
+    <img style="max-width: 450px;" class="section-image" src="../images/function.png" />
+
+    
+</section>
     
 
     <footer class="footer container">
