@@ -25,7 +25,7 @@ hr{
 
 .container {
     margin: auto;
-    max-width: 650px;
+    max-width: 700px;
 }
 
 .container-fluid {
@@ -135,7 +135,7 @@ header{
 .header-image{
     margin: auto;
     width: 100%;
-    max-width: 500px;
+    max-width: 550px;
     display: block;
 }
 
